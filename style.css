@@ -1,0 +1,178 @@
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+body {
+	background: #0d1424 url(body-bg1.jpg) no-repeat center top;
+	font: .81em/150% Charlemagne STD;
+	
+}
+/* headings */
+h1{
+	line-height: 1.6em;
+	margin: 20px 0 .4em;
+	color: #000;
+	margin-top: 20px;
+	margin-left: 45%;
+	font-family: Charlemagne STD;
+	color: black;
+	font-size: 500;
+}
+
+h2 {
+	font-size: 1.6em;
+	margin-top: 10px;
+	margin-left: 43.5%;
+	font-family: Charlemagne STD;
+	color: white;
+}
+h3 {
+	font-size: 1.4em;
+	font-family: Charlemagne STD;
+	color: white;
+}
+h4 {
+	font-size: 1.2em;
+	font-family: Charlemagne STD;
+	color: white;
+}
+h5 {
+	font-size: 25px;
+	margin-left: 100px;
+	font-family: Charlemagne STD;
+	color: black;
+
+
+}
+h6 {
+	font-size: 17px;
+	margin-left: 100px;
+	margin-top: -30px;
+	font-family: Charlemagne STD;
+	color: black;
+}
+h7 {
+	font-size: 14px;
+	font-family: Charlemagne STD;
+	color: black;
+}
+
+#pagewrap
+{
+	margin: 0 auto;
+}
+
+#btn-search {
+	font-size: 15px;
+	margin-top: 25px;
+	font-family: Charlemagne STD;
+	color: black;
+}
+ 
+ #movieName{
+	font-size: 15px;
+	margin-top: 70px;
+	margin-left: 37%;
+	font-family: Charlemagne STD;
+	color: black;
+}
+
+img{
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	height: 130px;
+	position: absolute;
+}
+
+img:hover {
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 130px;
+	opacity: 10;
+}
+#content {
+	opacity: .8;
+	background: white;
+	margin: 30px 110px 30px 30px;
+	padding: 10px 10px;
+	width: 1000px;
+	float: right;
+	/* rounded corner */
+	margin-top: 30px
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	
+}
+
+
+
+
+
+
+
+
+
+/* reset webkit search input styles */
+input[type=search] {
+	-webkit-appearance: none;
+	outline: none;
+	font-family: Lithos Pro Regular;
+}
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+	font-family: Lithos Pro Regular;
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	position: relative;
+	height: 160px;
+}
+
+/* site logo */
+#site-logo {
+	position: absolute;
+	top: 10px;
+}
+#site-logo a {
+	font: bold 30px/100% Charlemagne STD, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* site description */
+#site-description {
+	font: italic 100%/130% "Lithos Pro Regular", Times, serif;
+	color: #fff;
+	position: absolute;
+	top: 50px;
+}
+
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+/************************************************************************************
+CLEARFIX
+*************************************************************************************/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
